@@ -1,0 +1,44 @@
+@import "../assets/styles/index";
+
+.wrapper_body{
+  width: 100%;
+  .wrapper_search{
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+    img{
+      position: absolute;
+      top: 37px;
+      left: 0px;
+      width: 20px;
+
+    }
+  .search{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $color_gray;
+    padding: 20px 20px 20px 30px;
+    outline: none;
+  }
+  }
+
+  .body{
+    width: 100%;
+    h1{
+      text-align: left;
+      font-size: 22px;
+      font-family: $font-family;
+      color: $color_black;
+      font-weight: 400;
+    }
+    .wrapper_content{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding-bottom: 100px;
+    }
+
+  }
+}

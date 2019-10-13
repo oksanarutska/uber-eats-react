@@ -1,0 +1,48 @@
+@import "../assets/styles/index";
+
+
+
+
+  .wrapper_block{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    transition-duration: 0.7s;
+    margin: 20px 0;
+    &:hover{
+      background: $color_gray_light;
+      border: 2px solid $color_gray;
+      transition-duration: 0.7s;
+    }
+    img{
+      width: 100%;
+
+    }
+    .wrapper_block_content{
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+      padding-left: 10px;
+      a{
+        font-family: $font-family;
+        color: $color_black;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+
+      }
+      p{
+        font-family: $font-family;
+        color: $color_gray;
+        font-size: 14px;
+        margin: 10px 0;
+      }
+      .block_content{
+        color: $color_black;
+        padding-bottom: 25px;
+        margin-top: 0;
+
+      }
+    }
+  }

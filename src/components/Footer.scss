@@ -1,0 +1,126 @@
+@import "../assets/styles/index";
+
+.wrapper_footer {
+  width: 100%;
+  background: $color_black;
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    .footer_logo {
+      width: 100%;
+      text-align: left;
+      border-bottom: 1px solid $color_gray;
+      padding: 20px 0;
+      p {
+        font-family: $font-family;
+        font-size: 24px;
+        color: $color_white;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        span {
+
+          color: $color_green;
+
+        }
+      }
+    }
+
+    .wrapper_menu {
+      display: flex;
+      margin: 30px 0;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      border-bottom: 1px solid $color_gray;
+      .footer_options {
+        display: flex;
+        width: 33%;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        .select_language {
+          width: 250px;
+          padding: 15px 20px;
+          background: $color_gray_dark;
+          border: none;
+          font-family: $font-family;
+          color: $color_white;
+          text-transform: uppercase;
+          font-size: 14px;
+          option {
+            font-family: $font-family;
+            color: $color_white;
+            text-transform: uppercase;
+            font-size: 14px;
+          }
+        }
+        .text_logo{
+          font-family: $font-family;
+          color: $color_white;
+          font-size: 18px;
+          margin: 40px 0;
+          span{
+            color: $color_green;
+          }
+        }
+      }
+      .menu{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 33%;
+        .menu_element{
+          font-family: $font-family;
+          color: $color_white;
+          font-size: 14px;
+          margin: 20px 0 ;
+          &:hover{
+            color: $color_gray;
+          }
+        }
+      }
+    }
+    .wrapper_use{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid $color_gray;
+      padding-bottom: 30px;
+      img{
+        margin:  20px;
+      }
+
+    }
+
+    .wrapper_privacy{
+      display: flex;
+      margin: 30px 0;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      div{
+        display: flex;
+        width: 33%;
+        text-align: left;
+        a{
+          color: $color_white;
+          font-family: $font-family;
+          &:hover{
+            color: $color_gray;
+          }
+        }
+      }
+
+
+    }
+
+  }
+}

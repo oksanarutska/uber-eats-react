@@ -1,0 +1,101 @@
+@import "../assets/styles/index";
+
+.wrapper_header {
+  width: 100%;
+  box-shadow: 0px 8px 5px $color_gray_light;
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+
+    .header_logo {
+      text-transform: uppercase;
+      font-size: 16px;
+      font-family: $font-family;
+      font-weight: bolder;
+      color: $color_black;
+      letter-spacing: 1.5px;
+      span {
+        color: $color_green;
+      }
+    }
+    .header_location {
+      display: flex;
+      align-items: center;
+      p {
+        font-family: $font-family;
+        font-size: 14px;
+        color: $color_gray;
+        margin: 0 10px;
+      }
+      .wrapper_choose {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding: 10px;
+        cursor: pointer;
+        .choose_date {
+          text-align: center;
+          width: 100px;
+          font-size: 14px;
+          font-family: $font-family;
+          color: $color_black;
+
+        }
+      }
+      .wrapper_location {
+        position: relative;
+        img{
+          position: absolute;
+          top: 4px;
+          left: 4px;
+          width: 30px;
+        }
+        .location{
+          padding: 10px 10px 10px 30px;
+          font-size: 14px;
+          font-family: $font-family;
+          color: $color_black;
+        }
+      }
+    }
+    .header_button {
+      display: flex;
+      .button_sing {
+        padding: 6px 20px;
+        font-family: $font-family;
+        font-size: 12px;
+        color: $color_black;
+        border: 1px solid $color_gray;
+        cursor: pointer;
+        font-weight: bold;
+        line-height: 2;
+        &:hover {
+          background: $color_gray_light;
+          border: 1px solid $color_gray;
+          transition-duration: 0.5s;
+        }
+      }
+      .button_register {
+        color: $color_white;
+        border: 1px solid $color_black;
+        background: $color_black;
+        margin: 0 15px;
+      }
+      .button_bag {
+        padding: 6px 8px;
+        border-radius: 100%;
+        &:hover {
+          transition-duration: 0.5s;
+          background: #efefef;
+        }
+      }
+
+    }
+  }
+
+
+}
